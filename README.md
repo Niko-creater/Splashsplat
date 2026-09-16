@@ -17,6 +17,7 @@
 
   <a href="https://niko-creater.github.io/splashsplat-web/"><img src="https://img.shields.io/badge/Project-Page-blue?style=flat&logo=Google%20chrome&logoColor=white" alt="Project Page"></a>
   <a href="#"><img src="https://img.shields.io/badge/Paper-coming%20soon-b31b1b.svg?style=flat&logo=arxiv&logoColor=white" alt="Paper (coming soon)"></a>
+  <a href="#code"><img src="https://img.shields.io/badge/Code-coming%20soon-lightgrey?style=flat&logo=github&logoColor=white" alt="Code (coming soon)"></a>
   <a href="https://drive.google.com/file/d/1qSMX0ydia12yk0X-6shNNKqXNobU6vgR/view?usp=sharing"><img src="https://img.shields.io/badge/Dataset-Google%20Drive-34A853?style=flat&logo=googledrive&logoColor=white" alt="Dataset"></a>
 </div>
 
@@ -32,7 +33,13 @@ rendering. The same representation supports **novel-view synthesis**, **velocity
 recovery**, **temporal interpolation** and **style transfer**.
 
 This repository hosts the **SplashSplat benchmark**, the first synchronized
-multi-view video dataset of splashing liquids. Code will be released here.
+multi-view video dataset of splashing liquids. The reconstruction code will be
+released here as well.
+
+## Code
+
+🚧 **Coming soon.** The training and evaluation code is being cleaned up and will be
+released in this repository. Star or watch the repo to get notified.
 
 ## Dataset
 
