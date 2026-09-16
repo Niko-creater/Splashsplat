@@ -38,8 +38,7 @@ released here as well.
 
 ## Code
 
-🚧 **Coming soon.** The training and evaluation code is being cleaned up and will be
-released in this repository. Star or watch the repo to get notified.
+ **Coming soon** 
 
 ## Dataset
 
