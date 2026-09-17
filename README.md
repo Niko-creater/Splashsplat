@@ -46,14 +46,24 @@ released here as well.
 ### Layout
 
 ```
-real_scene/
-├── <scene>/                       # bowl_001, bowl_002, ..., tank_001, ...
-│   ├── ims/<cam>/<frame>.jpg      # RGB frames, cam 1-7, frame 000000-000049, 3840x2160
-│   ├── seg/<cam>/<frame>.png      # liquid masks, single channel, 0 / 255
-│   ├── train_meta.json            # cameras 1-5
-│   ├── test_meta.json             # cameras 6-7
-│   ├── init_pt_cld.npz            # initial background point cloud
-└── 
+data/
+├── real_scene/                    # full-resolution captures
+│   └── <scene>/                   # bowl_001 ... bowl_017, tank_001 ... tank_003 (20 scenes)
+│       ├── ims/<cam>/<frame>.jpg  # RGB frames, cam 1-7, frame 000000-000049, 3840x2160
+│       ├── seg/<cam>/<frame>.png  # liquid masks, single channel, 0 / 255
+│       ├── container_mask/<cam>.png   # static container mask per camera, 3840x2160, 0 / 255
+│       ├── train_meta.json        # cameras 1-5
+│       ├── test_meta.json         # cameras 6-7
+│       └── init_pt_cld.npz        # initial background point cloud
+├── real_scene_crop/               # same 20 scenes cropped around the container (per-scene size,
+│   └── <scene>/                   # e.g. 1280x1752); same layout and files as real_scene/,
+│       ├── ims/<cam>/<frame>.jpg  # without container_mask/; intrinsics in *_meta.json are
+│       ├── seg/<cam>/<frame>.png  # adjusted to the crop
+│       ├── train_meta.json
+│       ├── test_meta.json
+│       └── init_pt_cld.npz
+└── meshes/
+    └── <scene>.glb                # scanned container meshes (bowl_001, bowl_002, bowl_003)
 ```
 
 `train_meta.json` / `test_meta.json` follow the
