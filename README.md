@@ -63,7 +63,7 @@ data/
 │       ├── test_meta.json
 │       └── init_pt_cld.npz
 └── meshes/
-    └── <scene>.glb                # scanned container meshes (bowl_001, bowl_002, bowl_003)
+    └── <scene>.glb                # scanned container meshes 
 ```
 
 `train_meta.json` / `test_meta.json` follow the
