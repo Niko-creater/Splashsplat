@@ -16,7 +16,7 @@
   <sup>*</sup> <em>Equal contribution</em>
 
   <a href="https://niko-creater.github.io/splashsplat-web/"><img src="https://img.shields.io/badge/Project-Page-blue?style=flat&logo=Google%20chrome&logoColor=white" alt="Project Page"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Paper-coming%20soon-b31b1b.svg?style=flat&logo=arxiv&logoColor=white" alt="Paper (coming soon)"></a>
+  <a href="https://arxiv.org/abs/2609.20818"><img src="https://img.shields.io/badge/arXiv-2609.20818-b31b1b.svg?style=flat&logo=arxiv&logoColor=white" alt="arXiv 2609.20818"></a>
   <a href="https://drive.google.com/file/d/1fCnn-G1VN_iFrZdrx1MjwjD_7vaLqW8p/view?usp=sharing"><img src="https://img.shields.io/badge/Dataset-Google%20Drive-34A853?style=flat&logo=googledrive&logoColor=white" alt="Dataset"></a>
 </div>
 
@@ -82,11 +82,14 @@ data/
 ## Citation
 
 ```bibtex
-@inproceedings{splashsplat,
-  title     = {SplashSplat: Reconstructing Splashing Liquids from Real-World Multi-View Videos},
-  author    = {Liu, Peiyu and Zhang, Dingxi and Tombari, Federico and Pollefeys, Marc and Tsalicoglou, Christina and Barath, Daniel},
-  booktitle = {TODO},
-  year      = {TODO}
+@misc{liu2026splashsplatreconstructingsplashingliquids,
+      title={SplashSplat: Reconstructing Splashing Liquids from Real-World Multi-View Videos},
+      author={Peiyu Liu and Dingxi Zhang and Federico Tombari and Marc Pollefeys and Christina Tsalicoglou and Daniel Barath},
+      year={2026},
+      eprint={2609.20818},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2609.20818},
 }
 ```
 
