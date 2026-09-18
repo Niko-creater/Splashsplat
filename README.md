@@ -41,7 +41,7 @@ released here as well.
 
 ## Dataset
 
-**Download:** [real_scene.zip (Google Drive)](https://drive.google.com/file/d/1fCnn-G1VN_iFrZdrx1MjwjD_7vaLqW8p/view?usp=sharing)
+**Download:** [data.zip (Google Drive)](https://drive.google.com/file/d/1fCnn-G1VN_iFrZdrx1MjwjD_7vaLqW8p/view?usp=sharing)
 
 ### Layout
 
